@@ -1,0 +1,66 @@
+* {
+  font-family: "Mali", cursive !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  color: #479242;
+  font-weight: 700 !important;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+span {
+  color: #2de90f;
+}
+
+.bgImg {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+}
+
+#nama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#heroImg {
+  filter: drop-shadow(0px 24px 20px #5a6359);
+}
+
+.card-pengajar {
+  border: 1px solid black;
+  /* background: url("./image/pengajarCard.png"); */
+  background-color: wheat;
+  border-radius: 30px;
+  margin: 20px 100px;
+}
+
+nav a:hover {
+  background-color: rgba(202, 228, 228, 0.75);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+h4 {
+  color: #479242;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+hr {
+  border: 0;
+  height: 3px !important;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+

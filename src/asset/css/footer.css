@@ -1,0 +1,28 @@
+.foot-tengah {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2px;
+    box-shadow: inset 0px 16px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 0;
+  }
+
+  .foot-tengah > a {
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foot-kanan {
+    text-align: center;
+  }
+
+  footer {
+    color: white;
+    font-weight: 700;
+  }
+
+  #footer > a {
+    color: white;
+  }

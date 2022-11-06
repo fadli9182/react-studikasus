@@ -1,0 +1,72 @@
+* {
+  font-family: "Mali", cursive !important;
+}
+
+/* main {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+} */
+
+.card {
+  border-radius: 30px !important;
+  background: rgba(255, 255, 255, 0.75) !important;
+  padding: 30px;
+}
+
+.ekskul p {
+  color: black;
+}
+
+nav a {
+  font-weight: 700 !important;
+  color: #479242;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+nav a:hover {
+  background-color: rgba(202, 228, 228, 0.75);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+main {
+  color: #479242;
+}
+
+main a {
+  text-decoration: none;
+  color: #479242;
+}
+
+.biji {
+  color: #479242;
+  font-weight: 700;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.daftar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36%;
+  padding: 8px 100px;
+  gap: 10px;
+  color: white;
+  background: #479242 !important;
+  border-radius: 20px !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border: none;
+  font-size: 30px !important;
+}
+
+hr {
+  border: 0;
+  height: 3px !important;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
